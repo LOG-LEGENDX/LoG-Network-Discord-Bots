@@ -65,6 +65,7 @@ function getabout() {
 	document.getElementById("counter").style.display = "none";
 	document.getElementById("our-team").style.display = "none";
 	document.getElementById("contact-us").style.display = "none";
+	document.getElementById("more-links").style.display = "none";
 }
 
 function getservices() {
@@ -74,6 +75,7 @@ function getservices() {
 	document.getElementById("counter").style.display = "none";
 	document.getElementById("our-team").style.display = "none";
 	document.getElementById("contact-us").style.display = "none";
+	document.getElementById("more-links").style.display = "none";
 }
 
 function getteamskills() {
@@ -83,6 +85,7 @@ function getteamskills() {
 	document.getElementById("counter").style.display = "none";
 	document.getElementById("our-team").style.display = "none";
 	document.getElementById("contact-us").style.display = "none";
+	document.getElementById("more-links").style.display = "none";
 }
 
 function getcounter() {
@@ -92,6 +95,7 @@ function getcounter() {
 	document.getElementById("counter").style.display = "block";
 	document.getElementById("our-team").style.display = "none";
 	document.getElementById("contact-us").style.display = "none";
+	document.getElementById("more-links").style.display = "none";
 }
 
 function getourteam() {
@@ -101,6 +105,7 @@ function getourteam() {
 	document.getElementById("counter").style.display = "none";
 	document.getElementById("our-team").style.display = "block";
 	document.getElementById("contact-us").style.display = "none";
+	document.getElementById("more-links").style.display = "none";
 }
 
 function getcontact() {
@@ -110,6 +115,16 @@ function getcontact() {
 	document.getElementById("counter").style.display = "none";
 	document.getElementById("our-team").style.display = "none";
 	document.getElementById("contact-us").style.display = "block";
+	document.getElementById("more-links").style.display = "none";
+}
+function getmorelinks() {
+	document.getElementById("about").style.display = "none";
+	document.getElementById("services").style.display = "none";
+	document.getElementById("team-skills").style.display = "none";
+	document.getElementById("counter").style.display = "none";
+	document.getElementById("our-team").style.display = "none";
+	document.getElementById("contact-us").style.display = "none";
+	document.getElementById("more-links").style.display = "block";
 }
 
 function getcontactformpopup() {
